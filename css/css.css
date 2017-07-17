@@ -1,0 +1,83 @@
+body, h1, h2, h3, h4, h5, h6, hr, p,
+blockquote, dl, dt, dd, ul, ol, li,
+pre, form, fieldset, legend, button,
+input, textarea, th, td, img {
+	border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/* 设置默认字体 */
+/*
+    宋体, 微软雅黑
+*/
+body,button, input, select, textarea {
+    font: 16px/1.5 '\5b8b\4f53','\5FAE\8F6F\96C5\9ED1',tahoma, Srial, helvetica, sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+}
+em {
+    font-style: normal;
+}
+
+/* 重置列表元素 */
+
+ul, ol {
+    list-style: none;
+}
+
+/* 重置超链接元素 */
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f40;
+    text-decoration: underline;
+}
+
+/* 重置图片元素 */
+
+img {
+    border: 0;
+}
+
+/* 重置表格元素 */
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* 重置盒子模型 */
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*:after, *:before {
+	content: "";
+	display: block;
+}
+
+*:after {
+	clear: both;
+}
+
+/* 选中字体的样式 */
+
+::selection {
+    background: #ffb7b7;
+    color: #fff;
+}
+::-moz-selection {
+    background: #ffb7b7;
+    color: #fff;
+}
